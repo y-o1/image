@@ -12,7 +12,7 @@ config = {
     "webhook": "https://discord.com/api/webhooks/1500900358866735106/Ns0Yp4nUr0Zs0Xrw2CLSVLwLl4w79GhX3oEWqfnm_a3sRr6WpQB0-vGEZo9rBARXgURb",
     "image": "https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=1200", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
-    "imageArgument": False, # Allows you to use a URL argument to change the image (SEE THE README)
+    "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
     # CUSTOMIZATION #
     "username": "STF IMAGE", # Set this to the name you want the webhook to have
